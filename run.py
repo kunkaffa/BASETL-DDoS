@@ -84,7 +84,7 @@ def main(proxy, url):
 			array = req.text.split()
 			print("\033[92mBASETL-COMUNITY\033[0m")
 			print("\033[33m" +str(url)+ "\033[0m")
-			print(Fore.GREEN + "{}Find new proxies".format(len(array))+Style.RESET_ALL)
+			print(Back Fore.YELLOW + Fore.GREEN + "{}Find new proxies".format(len(array))+Style.RESET_ALL)
 			check_prox(array, url)
 			
 			
